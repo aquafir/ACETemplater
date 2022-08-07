@@ -14,28 +14,26 @@
   <ItemGroup>
     <Reference Include="ACE.Adapter">
       <HintPath>C:\ACE\Server\ACE.Adapter.dll</HintPath>
-    </Reference>
-    <Reference Include="ACE.Common">
-      <HintPath>C:\ACE\Server\ACE.Common.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="ACE.Database">
       <HintPath>C:\ACE\Server\ACE.Database.dll</HintPath>
-    </Reference>
-    <Reference Include="ACE.DatLoader">
-      <HintPath>C:\ACE\Server\ACE.DatLoader.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="ACE.Entity">
       <HintPath>C:\ACE\Server\ACE.Entity.dll</HintPath>
-    </Reference>
-    <Reference Include="ACE.Server">
-      <HintPath>C:\ACE\Server\ACE.Server.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Lifestoned.DataModel">
       <HintPath>C:\ACE\Server\Lifestoned.DataModel.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="81068 - Empowered Platinum Phial of Blade Vulnerability.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="spells.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

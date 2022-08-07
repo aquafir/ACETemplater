@@ -30,7 +30,7 @@ variants.Clear();
 variants.ByIds(27).ByDamageType(Spell.BASIC_TYPES).ByLevel(1, 2, 3, 4, 5, 6, 7, 8);
 
 //Get a weenie template you want to make variants of, some alchemy phial
-var templatePath = @"C:\ACE\Content\json\weenies\81068 - Empowered Platinum Phial of Blade Vulnerability.json";
+var templatePath = @"81068 - Empowered Platinum Phial of Blade Vulnerability.json";
 if (!Helpers.TryLoadTemplate(templatePath, out var template)) {
     Console.WriteLine($"Failed to load weenie from: {templatePath}");
     return;
